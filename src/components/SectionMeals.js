@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import './All.css'
 
 const SectionMeals = () => {
@@ -92,7 +91,7 @@ const SectionMeals = () => {
             </div>
 
             <div className="container all-recipes">
-                <Link to='/' className="link">See all recipes &rarr;</Link>
+                <p className="link"> See all recipes &rarr;</p>
             </div>
         </div>
 

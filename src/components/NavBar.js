@@ -1,18 +1,15 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import './All.css'
 
 const NavBar=()=>{
 
     return(
         <header className="header">
-        <Link to='/'>
           <img
             className="logo"
             alt="Omnifood logo"
             src="./img/omnifood-logo.png"
             />
-            </Link>
           
           
           <nav className="main-nav">

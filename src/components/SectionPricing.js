@@ -1,12 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 import './All.css'
 
 const SectionPricing=()=>{
 
     return (
-        <div className="section-pricing" id="pricing">
+        <section className="section-pricing" id="pricing">
         <div className="container">
         <div className="contaire center-text">
           <span className="subheading">Princing</span>
@@ -41,7 +40,7 @@ const SectionPricing=()=>{
             </li>
           </ul>
           <div className="plan-sing-up">
-            <Link to={'/'} className="btn btn--full">Start eating well</Link>
+            <a href="#hero" className="btn btn--full">Start eating well</a>
           </div>
         </div>
         
@@ -119,7 +118,7 @@ const SectionPricing=()=>{
           </p>
         </div>
       </div>
-    </div>
+    </section>
     
 
     )
