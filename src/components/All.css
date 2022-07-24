@@ -1006,7 +1006,7 @@
         rgba(235, 151, 78, 0.35),
         rgba(230, 125, 34, 0.35)
       ),
-      url('/home/navgurukul/Desktop/omifood-react-app/public/img/eating.png');
+      url('../../public/img/eating.jpg');
     background-size: cover;
     background-position: center;
   }
