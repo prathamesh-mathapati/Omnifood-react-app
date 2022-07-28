@@ -15,7 +15,7 @@ const SectionPricing=()=>{
         </div>
       </div>
       
-      <div className="container grid grid--2--cols margin-bottom-md">
+      <div className="container grid grid--2--cols margin-bottom-md section-pricing-md">
         <div className="princing-plan princing-plan--starter">
           <header className="plan-header">
             <p className="plan-name">Starter</p>
